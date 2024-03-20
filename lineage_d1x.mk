@@ -40,9 +40,6 @@ TARGET_BOOT_ANIMATION_RES := 1080
 ## Inherit some common crDroid stuff
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-## Enable updating of APEXes
-$(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
-
 ## Device identifier, this must come after all inclusions
 PRODUCT_NAME := lineage_d1x
 PRODUCT_DEVICE := d1x
